@@ -1,0 +1,5 @@
+<div class="translator">
+    <textarea ng-model="$ctrl.word" class="form-control"></textarea>
+    <div class="btn btn-primary" ng-click="$ctrl.translate()">Перевести</div>
+    <p class="alert alert-info" ng-if="$ctrl.translation">{{$ctrl.translation}}</p>
+</div>

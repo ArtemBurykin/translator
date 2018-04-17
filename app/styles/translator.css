@@ -1,0 +1,13 @@
+.translator {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.translator .btn {
+    margin-top: 10px;
+}
+
+.translator .alert {
+    margin-top: 10px;
+}
